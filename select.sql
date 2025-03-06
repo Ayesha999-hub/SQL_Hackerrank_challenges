@@ -20,3 +20,11 @@ select * from city
 
 select * from city 
 where id = 1661;
+
+
+/* Query all attributes of every Japanese city in the CITY table. The COUNTRYCODE for Japan is JPN.*/
+
+/* retrieved all the attributes from the city table where countrycode is equal to jpn */
+
+select * from city 
+where countrycode = 'JPN';
