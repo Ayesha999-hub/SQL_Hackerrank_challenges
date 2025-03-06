@@ -7,3 +7,10 @@ retrieved the column name from city table where country code is equal to'USA'and
 select name from city 
 where countrycode = 'USA'
 and population > 120000;
+
+/*Query all columns (attributes) for every row in the CITY table. */
+
+/* retrieved all columns with every row from city table */
+
+select * from city 
+
