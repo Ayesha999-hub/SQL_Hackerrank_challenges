@@ -14,3 +14,9 @@ and population > 120000;
 
 select * from city 
 
+/*Query all columns for a city in CITY with the ID 1661.*/
+
+/* retrieved all the columns from city table where id is equal to 1661*/
+
+select * from city 
+where id = 1661;
